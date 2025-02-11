@@ -1,1 +1,71 @@
-/build
+# Build folders
+/build/
+/app/build/
+/.gradle/
+/.idea/
+
+# Local configuration files
+/local.properties
+/.vscode/
+
+# Gradle files
+.gradle/
+/*.iml
+/.gradle/
+/.gradle/**
+
+# Android Studio
+/.idea/
+/.DS_Store
+
+# Log and temporary files
+*.log
+*.lock
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Binary files
+*.apk
+*.ap_
+*.db
+*.jks
+
+# Compilation output
+*.dex
+*.class
+
+# Gradle cache
+/caches/
+/captures/
+
+# Generated files
+generated/
+bin/
+gen/
+
+# Keystore files
+*.keystore
+
+# Miscellaneous
+*.orig
+*.rej
+*~
+Thumbs.db
+*.stacktrace
+*.pid
+*.gz
+*.rar
+
+# JetBrains related files
+/.idea/workspace.xml
+/.idea/libraries/
+/.idea/modules.xml
+.idea/.name
+
+# Exclude project-local .jar dependencies
+libs/*.jar
+
+# MacOS-specific files
+.DS_Store
